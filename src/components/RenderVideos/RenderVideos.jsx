@@ -100,13 +100,6 @@ const RenderVideos = () => {
                                               marginTop: '5px',
                                           }}
                                       >
-                                          <p>Published at</p>
-                                          <p>
-                                              {e.snippet.publishTime.slice(
-                                                  0,
-                                                  10
-                                              )}
-                                          </p>
                                       </div>
                                   </div>
                               </Link>

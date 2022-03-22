@@ -36,15 +36,12 @@ const Video = () => {
                     <p className="video-top__content-right">123k views</p>
                     <div className="video-top__content-left">
                         <button className="video-top__content-btn">
-                            <img src={Like} alt="" />
                             <p>123k</p>
                         </button>
                         <button className="video-top__content-btn">
-                            <img src={disLike} alt="" />
                             <p>435k</p>
                         </button>
                         <button className="video-top__content-btn">
-                            <img src={Share} alt="" />
                             <p>Share</p>
                         </button>
                         <More />

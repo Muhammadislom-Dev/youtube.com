@@ -5,9 +5,6 @@ import { Link, Switch, Route } from 'react-router-dom';
 import ChannelImg from '../../assets/img/channel-img.png';
 import ChannelUser from '../../assets/img/channel-user.png';
 import SearchIcon from '../../assets/img/search-icon.png';
-import ChannelOval1 from '../../assets/img/channelOval1.png';
-import ChannelOval2 from '../../assets/img/channelOval2.png';
-import ChannelOval3 from '../../assets/img/channelOval3.png';
 
 //Components
 import ChannelItem from '../../components/ChannelItem/ChannelItem';

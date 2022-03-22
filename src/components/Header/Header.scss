@@ -55,11 +55,12 @@
     }
 
     &__search-input {
-        width: 560px;
+        width: 600px;
+        height: 40px;
         padding: 10px 23px;
         background: #ffffff;
-
-        border: 1px solid #f2f2f2;
+        border-radius: 15px;
+        border: 1.5px solid #f2f2f2;
         color: #222;
         background-repeat: no-repeat;
         background-position: right 12px center;
@@ -91,7 +92,6 @@
             &-wrapper {
                 margin-right: 30px;
             }
-
             position: relative;
             border: none;
             cursor: pointer;
