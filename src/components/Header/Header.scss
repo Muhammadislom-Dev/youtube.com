@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     padding: 10px 40px 10px 32px;
-    background-color: #202020;
+    background-color: #f2f2f2;
 
     &__left {
         display: flex;
@@ -35,7 +35,7 @@
         button {
             padding: 0;
             padding: 7.5px 20px;
-            background-color: #373737;
+            background-color: #f2f2f2;
             border: none;
 
             &:hover {
@@ -57,10 +57,10 @@
     &__search-input {
         width: 560px;
         padding: 10px 23px;
-        background: #121212;
+        background: #ffffff;
 
-        border: 1px solid #373737;
-        color: $theme-dark;
+        border: 1px solid #f2f2f2;
+        color: #222;
         background-repeat: no-repeat;
         background-position: right 12px center;
 
@@ -69,7 +69,7 @@
             font-weight: normal;
             font-size: 16px;
             line-height: 20px;
-            color: $theme-dark;
+            color: #222;
             opacity: 0.4;
         }
 

@@ -10,7 +10,7 @@ const More = () => {
                 fillRule="evenodd"
                 clipRule="evenodd"
                 d="M3 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm11 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm14-3a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                fill="#fff"
+                fill="#222"
             />
         </svg>
     );

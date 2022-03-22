@@ -11,10 +11,8 @@ import Video from '../Lib/Svgs/Video';
 import CombinedShape from '../Lib/Svgs/Combined-shape';
 import NotificationIcon from '../Lib/Svgs/Notification';
 import Menu from '../Lib/Svgs/Menu';
-import SearchIcon from '../../assets/img/search-icon.png';
 import { useContext, useRef } from 'react';
 import { GetValue } from '../../context/GetValue';
-import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Header = () => {
     const [state, setState] = useContext(GetValue);
@@ -42,17 +40,6 @@ const Header = () => {
                         }
                     }}
                 />
-                <button
-                    onClick={(e) => {
-                        if (inputValue.current.value.length >= 1) {
-                            setState(inputValue.current.value);
-                            inputValue.current.value = '';
-                        }
-                        <Redirect></Redirect>;
-                    }}
-                >
-                    <img src={SearchIcon} alt="" />
-                </button>
             </div>
             <div className="header__right">
                 <div className="header__right-menues">

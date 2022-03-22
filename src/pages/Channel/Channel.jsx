@@ -10,7 +10,6 @@ import ChannelOval2 from '../../assets/img/channelOval2.png';
 import ChannelOval3 from '../../assets/img/channelOval3.png';
 
 //Components
-import NotificationIcon from '../../components/Lib/Svgs/Notification';
 import ChannelItem from '../../components/ChannelItem/ChannelItem';
 import RenderVideos from '../../components/RenderVideos/RenderVideos';
 
@@ -57,10 +56,6 @@ const Channel = () => {
                                     <p>245k subscribed</p>
                                 </div>
                             </Link>
-                            <div className="channel-content__section-top__right">
-                                <NotificationIcon />
-                                <button>Subscribe 2.3m</button>
-                            </div>
                         </div>
                         <div className="channel-content__section-content">
                             <div className="channel-content__section-content__left">
@@ -145,47 +140,6 @@ const Channel = () => {
                                         <ChannelItem />
                                     </Route>
                                 </Switch>
-                            </div>
-                            <div className="channel-content__section-content__right">
-                                <p>Recommended channel</p>
-                                <div>
-                                    <Link
-                                        className="channel-content__section-content__right-content"
-                                        to="/channel"
-                                    >
-                                        <img
-                                            src={ChannelOval1}
-                                            alt=""
-                                            width={50}
-                                            height={50}
-                                        />
-                                        <h3>Flora Benson</h3>
-                                    </Link>
-                                    <Link
-                                        className="channel-content__section-content__right-content"
-                                        to="/channel"
-                                    >
-                                        <img
-                                            src={ChannelOval2}
-                                            alt=""
-                                            width={50}
-                                            height={50}
-                                        />
-                                        <h3>Violet Cobb</h3>
-                                    </Link>
-                                    <Link
-                                        className="channel-content__section-content__right-content"
-                                        to="/channel"
-                                    >
-                                        <img
-                                            src={ChannelOval3}
-                                            alt=""
-                                            width={50}
-                                            height={50}
-                                        />
-                                        <h3>Phillip Mullins</h3>
-                                    </Link>
-                                </div>
                             </div>
                         </div>
                         <div className="channel-content__section-bottom">
