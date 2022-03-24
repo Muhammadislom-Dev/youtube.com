@@ -2,14 +2,11 @@ import './Video.scss';
 import { GetVideoId } from '../../context/GetVideoId';
 
 //Images
-import Like from '../../assets/img/like.png';
-import disLike from '../../assets/img/dislike.png';
-import Share from '../../assets/img/share.png';
 import Food from '../../assets/img/food.png';
 import Check from '../../assets/img/check.png';
 
 //Components
-import RenderVideos from '../../components/RenderVideos/RenderVideos';
+import VideoLists from '../../components/VideoLists/VideoLists';
 import More from '../../components/Lib/Svgs/More';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
@@ -70,7 +67,7 @@ const Video = () => {
                             Show more
                         </Link>
                     </div>
-                    <button>Subscribe 2.3m</button>
+                    <button className='video__button'>Subscribe 2.3m</button>
                 </div>
             </div>
             <div className="left">
@@ -81,7 +78,7 @@ const Video = () => {
                         <img src={Check} alt="" width={44} height={28} />
                     </div>
                 </div>
-                <RenderVideos
+                <VideoLists
                     display={'column'}
                     width={367}
                     height={293}

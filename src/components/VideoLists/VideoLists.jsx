@@ -1,4 +1,4 @@
-import './RenderVideos.scss';
+import './VideoLists.scss';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
@@ -7,7 +7,7 @@ import { GetData } from '../../context/GetData';
 import { GetVideoId } from '../../context/GetVideoId';
 import { useContext } from 'react';
 
-const RenderVideos = () => {
+const VideoLists = () => {
     const array = useContext(GetData);
     const Loading = array[1];
     const newArray = array[0];
@@ -24,12 +24,12 @@ const RenderVideos = () => {
             >
                 <SkeletonTheme baseColor="#303030" highlightColor="#333333">
                     {Loading
-                        ? Array.from(new Array(25)).map((e, i) => (
+                        ? Array.from(new Array(20)).map((e, i) => (
                               <div
                                   key={i}
                                   className="video-link"
                                   style={{
-                                      width: 300 + 'px',
+                                      width: 250 + 'px',
                                       marginRight: 8 + 'px',
                                       marginLeft: 8 + 'px',
                                       marginBottom: 40 + 'px',
@@ -110,4 +110,4 @@ const RenderVideos = () => {
     );
 };
 
-export default RenderVideos;
+export default VideoLists;

@@ -8,7 +8,7 @@ import SearchIcon from '../../assets/img/search-icon.png';
 
 //Components
 import ChannelItem from '../../components/ChannelItem/ChannelItem';
-import RenderVideos from '../../components/RenderVideos/RenderVideos';
+import VideoLists from '../../components/VideoLists/VideoLists';
 
 const Channel = () => {
     const handleAddClass = (evt) => {
@@ -140,7 +140,7 @@ const Channel = () => {
                             </div>
                         </div>
                         <div className="channel-content__section-bottom">
-                            <RenderVideos
+                            <VideoLists
                                 width={250}
                                 height={200}
                                 imgHeight={150}

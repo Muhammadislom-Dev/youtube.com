@@ -88,6 +88,14 @@
             cursor: pointer;
             width: 200px;
             height: 45px;
+            transition: 1s;
+
+
+            &:hover{
+                background-color: #fff;
+                color: #ff0000;
+                border: 2px solid #ff0000;
+            }
         }
 
         &__firstText {
