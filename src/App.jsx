@@ -1,5 +1,8 @@
 import { Switch, Route } from 'react-router-dom';
 import './App.scss';
+import { useEffect } from 'react';
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 //Components
 import Header from './components/Header/Header';
@@ -11,6 +14,11 @@ import Channel from './pages/Channel/Channel';
 import Video from './pages/Video/Video';
 
 function App() {
+
+    useEffect(() =>{
+        Aos.init({});
+    }, []);
+
     return (
         <div className="app">
             <div className="render-pages">

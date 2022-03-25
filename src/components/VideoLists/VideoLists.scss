@@ -4,6 +4,14 @@
     flex-shrink: 0;
     text-decoration: none;
     color: #17171e;
+    transition: 0.3s;
+    height: 240px;
+
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 0px 12px 21px rgba(134, 109, 109, 0.2);
+        background-color: #e8e8ee;
+    }
 
     &__bottom {
         display: flex;
@@ -33,6 +41,7 @@
     height: 40px;
     white-space: pre-wrap;
     overflow: hidden;
+    margin-top: 12px;
 }
 
 .skeleton p {

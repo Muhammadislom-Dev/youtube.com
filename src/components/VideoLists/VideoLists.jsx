@@ -25,11 +25,11 @@ const VideoLists = () => {
                 <SkeletonTheme baseColor="#303030" highlightColor="#333333">
                     {Loading
                         ? Array.from(new Array(20)).map((e, i) => (
-                              <div
+                              <div  data-aos="zoom-in"  data-aos-duration="3000"
                                   key={i}
                                   className="video-link"
                                   style={{
-                                      width: 250 + 'px',
+                                      width: 300 + 'px',
                                       marginRight: 8 + 'px',
                                       marginLeft: 8 + 'px',
                                       marginBottom: 40 + 'px',
@@ -42,7 +42,7 @@ const VideoLists = () => {
                                           marginBottom: 8 + 'px',
                                       }}
                                   >
-                                      <Skeleton
+                                      <Skeleton 
                                           style={{
                                               borderRadius: 0,
                                               height: 167 + 'px',
@@ -92,7 +92,7 @@ const VideoLists = () => {
                                       alt=""
                                   />
                                   <div className="skeleton">
-                                      <h3>{e.snippet.title}</h3>
+                                      <h3 >{e.snippet.title}</h3>
                                       <div
                                           style={{
                                               display: 'flex',
